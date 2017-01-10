@@ -1,0 +1,97 @@
+{
+  "name": "BamProducts1Test",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "idInjection": false,
+    "dashdb": {
+      "schema": "DASH107047",
+      "table": "BAM_PRODUCTS1_TEST"
+    }
+  },
+  "properties": {
+    "account": {
+      "type": "number",
+      "required": false,
+      "length": 4,
+      "scale": 0,
+      "dashdb": {
+        "columnName": "ACCOUNT",
+        "dataType": "INTEGER",
+        "dataLength": 4,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "appearance": {
+      "type": "number",
+      "required": false,
+      "length": 4,
+      "scale": 0,
+      "dashdb": {
+        "columnName": "APPEARANCE",
+        "dataType": "INTEGER",
+        "dataLength": 4,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "bamKeyId": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "length": 10,
+      "scale": 0,
+      "dashdb": {
+        "columnName": "BAM_KEY_ID",
+        "dataType": "VARCHAR",
+        "dataLength": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "product": {
+      "type": "number",
+      "required": true,
+      "length": 4,
+      "scale": 0,
+      "dashdb": {
+        "columnName": "PRODUCT",
+        "dataType": "INTEGER",
+        "dataLength": 4,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "productname": {
+      "type": "string",
+      "required": false,
+      "length": 100,
+      "scale": 0,
+      "dashdb": {
+        "columnName": "PRODUCTNAME",
+        "dataType": "VARCHAR",
+        "dataLength": 100,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "producttype": {
+      "type": "number",
+      "required": false,
+      "length": 4,
+      "scale": 0,
+      "dashdb": {
+        "columnName": "PRODUCTTYPE",
+        "dataType": "INTEGER",
+        "dataLength": 4,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

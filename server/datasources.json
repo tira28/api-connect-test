@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "myDashDB": {
+    "host": "yp-dashdb-small-01-lon02.services.eu-gb.bluemix.net",
+    "port": 50000,
+    "url": "yp-dashdb-small-01-lon02.services.eu-gb.bluemix.net",
+    "database": "BLUDB",
+    "password": "KU8oSTFjrpSv",
+    "name": "myDashDB",
+    "user": "dash107047",
+    "connector": "dashdb"
+  }
+}
